@@ -1,0 +1,8 @@
+/releases
+/built
+/tools
+/logs
+/.idea
+/Config.json
+dist/
+node_modules/
