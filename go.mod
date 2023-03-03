@@ -6,6 +6,7 @@ require (
 	github.com/creack/pty v1.1.18
 	github.com/denisbrodbeck/machineid v1.0.1
 	github.com/gin-gonic/gin v1.7.7
+	github.com/gonutz/w32/v2 v2.7.0
 	github.com/gorilla/websocket v1.5.0
 	github.com/imroc/req/v3 v3.8.2
 	github.com/json-iterator/go v1.1.12
