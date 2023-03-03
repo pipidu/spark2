@@ -5,10 +5,8 @@ export COMMIT=`git rev-parse HEAD`
 
 export GOOS=windows
 
-export GOARCH=386
-go build -ldflags "-s -w -X 'Spark/client/config.COMMIT=$COMMIT'" -o ./built/windows_i386 Spark/client
 export GOARCH=amd64
-go build -ldflags "-s -w -X 'Spark/client/config.COMMIT=$COMMIT'" -o ./built/windows_amd64 Spark/client
+go build -ldflags "-X 'Spark/client/config.COMMIT=$COMMIT'" -o ./built/windows_amd64 Spark/client
 
 
 
